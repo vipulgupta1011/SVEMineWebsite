@@ -5,10 +5,10 @@
         category: "HOME FURNISHING",
         date: "March 15, 2024",
         image: "/showroom-interior.jpeg",
-        excerpt: "In the heart of Raja Park, Jaipur, lies a treasure trove of exquisite home furnishings and décor – SVE Interior. Renowned for its impeccable taste, unparalleled quality, and exceptional customer service, SVE Interior has established itself as the premier destination for homeowners looking to elevate their living spaces.",
+        excerpt: "In the heart of Raja Park, Jaipur, lies a treasure trove of exquisite home furnishings and décor - SVE Interior. Renowned for its impeccable taste, unparalleled quality, and exceptional customer service, SVE Interior has established itself as the premier destination for homeowners looking to elevate their living spaces.",
         tags: ["Designer Sofa Fabrics in Raja Park", "Home Furnishing Showroom in Raja Park", "Home Furnishing Store in Jaipur", "Home Furnishing Store in Raja Park", "Luxury Interior Product Showroom in Jaipur", "Luxury Interior Product Showroom in Raja Park"],
         content: `
-            <p class="lead">In the heart of Raja Park, Jaipur, lies a treasure trove of exquisite home furnishings and décor – SVE Interior. Renowned for its impeccable taste, unparalleled quality, and exceptional customer service, SVE Interior has established itself as the premier destination for homeowners looking to elevate their living spaces.</p>
+            <p class="lead">In the heart of Raja Park, Jaipur, lies a treasure trove of exquisite home furnishings and décor - SVE Interior. Renowned for its impeccable taste, unparalleled quality, and exceptional customer service, SVE Interior has established itself as the premier destination for homeowners looking to elevate their living spaces.</p>
 
             <p>From luxurious furniture pieces to captivating décor accents, SVE Interior offers a curated selection of products that cater to the diverse tastes and preferences of its clientele. Join us as we delve into the world of SVE Interior and uncover the secrets behind its success as the best home furnishing showroom in Raja Park.</p>
 
