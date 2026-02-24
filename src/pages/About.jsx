@@ -1,5 +1,7 @@
 ﻿import { motion } from 'framer-motion';
 import BrandPartners from '../components/BrandPartners';
+import YashImg from '../assets/Card/YashCard.png';
+import NidhiImg from '../assets/Card/NidhiCard.png';
 
 export default function About() {
     return (
@@ -108,13 +110,13 @@ export default function About() {
                             name: "Yash Mamoria",
                             role: "Co-Founder & Design Director",
                             desc: "With an unwavering eye for detail and a deep conviction in quality over quantity, Yash leads SVE Interior's design philosophy. His belief: every space should reflect the personality of its owner, built with materials and designs that appreciate over time, not depreciate.",
-                            image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop"
+                            image: YashImg
                         },
                         {
                             name: "Nidhi Mamoria",
                             role: "Co-Founder & Operations Head",
                             desc: "Nidhi brings operational excellence and a seamless customer experience to every project. Her passion for long-term value over short-term trends has shaped SVE Interior's reputation for reliability, transparency, and client satisfaction across 15,000+ projects.",
-                            image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop"
+                            image: NidhiImg
                         }
                     ].map((founder, i) => (
                         <motion.div

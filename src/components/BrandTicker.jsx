@@ -1,7 +1,7 @@
 import { motion, useMotionValue, useTransform, useAnimationFrame } from "framer-motion";
 
 const brands = [
-    "D’Decor",
+    "D'Decor",
     "GMF",
     "Rumors",
     "Warwick",
