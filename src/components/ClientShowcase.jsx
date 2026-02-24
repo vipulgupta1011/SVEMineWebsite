@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+// import React from 'react';
+// import { motion } from 'framer-motion';
 
 // Import local assets
 import adaniLogo from '../assets/companyphotos/Adani.png';
@@ -12,7 +12,7 @@ import hgielLogo from '../assets/companyphotos/Hgiel.png';
 import hondaLogo from '../assets/companyphotos/Honda.png';
 import jayshreeLogo from '../assets/companyphotos/Jayshree-Periwal-International-School.png';
 import kiaLogo from '../assets/companyphotos/Kia.png';
-import manglamLogo from '../assets/companyphotos/Manglam-Radiance.png';
+import radianceManglamLogo from '../assets/companyphotos/Manglam-Radiance.png';
 import nexaLogo from '../assets/companyphotos/Nexa.png';
 import nirvanaLogo from '../assets/companyphotos/Nirvana.png';
 import rkMarbleLogo from '../assets/companyphotos/RK-Marble.png';
@@ -23,6 +23,20 @@ import xaviersLogo from '../assets/companyphotos/St.xaviers-College.png';
 import tholiasLogo from '../assets/companyphotos/Tholias-Kuber.png';
 import cheerSagarLogo from '../assets/companyphotos/cheer-Sagar.png';
 import theLegendLogo from '../assets/companyphotos/the-Legend.png';
+import indianOilLogo from '../assets/companyphotos/IndianOil.png';
+import ehccLogo from '../assets/companyphotos/EHCC.png';
+import bharatPetroleumLogo from '../assets/companyphotos/BharatPetroleum.png';
+import policeHeadquarterLogo from '../assets/companyphotos/Police-Headquarter.png';
+import kgkRealtyLogo from '../assets/companyphotos/KGK-Realty.png';
+import manglamLogo from '../assets/companyphotos/Manglam.png';
+import westinLogo from '../assets/companyphotos/Westin.png';
+import jecrcLogo from '../assets/companyphotos/JECRC.png';
+import akshayaPatraLogo from '../assets/companyphotos/Akshaya-Patra.png';
+import dynamicCablesLogo from '../assets/companyphotos/Dynamic-Cables.png';
+import apexLogo from '../assets/companyphotos/Apex.png';
+import sdmhLogo from '../assets/companyphotos/SDMH.png';
+import rasClubLogo from '../assets/companyphotos/Ras-Club.png';
+import jaiClubLogo from '../assets/companyphotos/Jai-Club.png';
 
 const clients = [
     { name: "Radisson", logo: radissonLogo },
@@ -40,11 +54,25 @@ const clients = [
     { name: "Bhamashah Technohub", logo: bhamashahLogo },
     { name: "HGIEL", logo: hgielLogo },
     { name: "Jayshree Periwal Int. School", logo: jayshreeLogo },
-    { name: "Manglam Radiance", logo: manglamLogo },
+    { name: "Manglam Radiance", logo: radianceManglamLogo },
     { name: "Nirvana", logo: nirvanaLogo },
     { name: "Shahpura Hotels", logo: shahpuraLogo },
     { name: "St. Xavier's College", logo: xaviersLogo },
     { name: "Cheer Sagar", logo: cheerSagarLogo },
+    { name: "Indian Oil", logo: indianOilLogo },
+    { name: "EHCC", logo: ehccLogo },
+    { name: "Bharat Petroleum", logo: bharatPetroleumLogo },
+    { name: "Police Headquarter", logo: policeHeadquarterLogo },
+    { name: "KGK Realty", logo: kgkRealtyLogo },
+    { name: "Manglam", logo: manglamLogo },
+    { name: "Westin", logo: westinLogo },
+    { name: "JECRC", logo: jecrcLogo },
+    { name: "Akshaya Patra", logo: akshayaPatraLogo },
+    { name: "Dynamic Cables", logo: dynamicCablesLogo },
+    { name: "Apex", logo: apexLogo },
+    { name: "SDMH", logo: sdmhLogo },
+    { name: "Ras Club", logo: rasClubLogo },
+    { name: "Jai Club", logo: jaiClubLogo },
     { name: "The Legend", logo: theLegendLogo }
 ];
 
