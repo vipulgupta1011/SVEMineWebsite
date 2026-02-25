@@ -1,6 +1,3 @@
-// import React from 'react';
-// import { motion } from 'framer-motion';
-
 // Import local assets
 import adaniLogo from '../assets/companyphotos/Adani.png';
 import agrawalLogo from '../assets/companyphotos/Agrawal-Pg-College.png';
