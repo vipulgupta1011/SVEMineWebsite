@@ -2,30 +2,19 @@ import { motion, useMotionValue, useTransform, useAnimationFrame } from "framer-
 
 const brands = [
     "D'Decor",
-    "GMF",
-    "Rumors",
     "Warwick",
-    "Atmosphere",
-    "Nilaya",
-    "Casamance",
-    "AD",
-    "Marburg Wallcoverings",
-    "Excel Wallcoverings",
-    "Kazage",
-    "Versace",
-    "Designers Guild",
-    "Livin Blinds",
     "TOSO (Japan)",
-    "Somfy",
-    "Divine",
     "NBT",
-    "Valdor",
+    "Livin",
+    "GreenPanel",
+    "Somfy",
+    "Asian Paints",
+    "Du Pont",
+    "Excel",
+    "Kazage",
     "Newmat",
-    "Greenpanel",
-    "Asian TESA",
-    "HI-MACS",
-    "LG Hausys",
-    "DuPont"
+    "Marvel",
+    "Casamance (FRANCE)"
 ];
 
 const wrap = (min, max, v) => {

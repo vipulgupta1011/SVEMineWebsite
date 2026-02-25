@@ -17,19 +17,28 @@ import stretchCeiling3 from '../assets/products/stretch-ceiling-3.png';
 import acoustic1 from '../assets/products/acoustic-panel-1.png';
 import acoustic2 from '../assets/products/acoustic-panel-2.png';
 import acoustic3 from '../assets/products/acoustic-panel-3.png';
+import acoustic4 from '../assets/products/acoustic-panel-4.png';
 import verticalGarden1 from '../assets/products/vertical-garden-1.png';
 import verticalGarden2 from '../assets/products/vertical-garden-2.png';
 import verticalGarden3 from '../assets/products/vertical-garden-3.png';
 import cladding1 from '../assets/products/cladding-1.png';
 import cladding2 from '../assets/products/cladding-2.png';
 import cladding3 from '../assets/products/cladding-3.png';
+import cladding4 from '../assets/products/cladding-4.png';
+import cladding5 from '../assets/products/cladding-5.png';
 import carpets1 from '../assets/products/carpets-1.png';
 import carpets2 from '../assets/products/carpets-2.png';
 import carpets3 from '../assets/products/carpets-3.png';
 import pergolas1 from '../assets/products/pergolas-1.png';
 import pergolas2 from '../assets/products/pergolas-2.png';
 import pergolas3 from '../assets/products/pergolas-3.png';
-
+import pergolas4 from '../assets/products/pergolas-4.png';
+import sofa1 from '../assets/products/sofa-upholstery-1.png';
+import sofa2 from '../assets/products/sofa-upholstery-2.png';
+import sofa3 from '../assets/products/sofa-upholstery-3.png';
+import sofa4 from '../assets/products/sofa-upholstery-4.png';
+import sofa5 from '../assets/products/sofa-upholstery-5.png';
+import sofa6 from '../assets/products/sofa-upholstery-6.png';
 export const products = [
     {
         id: "wallpaper",
@@ -79,11 +88,14 @@ export const products = [
     {
         id: "sofa-upholstery",
         title: "Sofa & Upholstery",
-        image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1200&auto=format&fit=crop",
+        image: sofa1,
         gallery: [
-            "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1200&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1200&auto=format&fit=crop",
-            "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop"
+            sofa1,
+            sofa2,
+            sofa3,
+            sofa4,
+            sofa5,
+            sofa6
         ],
         description: "High-quality upholstery fabrics updates.",
         longDescription: "Revitalize your furniture with our luxury grade upholstery fabrics. We offer a vast range of textures including velvets, chenilles, jacquards, and performance leathers. Designed for high-traffic usage, our fabrics blend softness with extreme durability.",
@@ -98,7 +110,9 @@ export const products = [
         gallery: [
             cladding1,
             cladding2,
-            cladding3
+            cladding3,
+            cladding4,
+            cladding5
         ],
         description: "Exterior and interior cladding options.",
         longDescription: "Enhance your facade or interior feature walls with our durable Cladding solutions. From WPC (Wood Plastic Composite) to HPL (High Pressure Laminate), our cladding offers the look of natural wood or stone with zero maintenance issues like termite or rot.",
@@ -143,7 +157,8 @@ export const products = [
         gallery: [
             acoustic1,
             acoustic2,
-            acoustic3
+            acoustic3,
+            acoustic4
         ],
         description: "Soundproofing acoustic panels for studios and homes.",
         longDescription: "Achieve auditory perfection with our designer Acoustic Panels. Ideal for home theaters, conference rooms, and recording studios, these panels absorb reverberation and noise without compromising on style. Available in hex grids, slats, and custom shapes-our acoustic solutions showcase premium product quality guided by balance-between innovation and timelessness.",
@@ -158,7 +173,8 @@ export const products = [
         gallery: [
             pergolas1,
             pergolas2,
-            pergolas3
+            pergolas3,
+            pergolas4
         ],
         description: "Enhance your outdoor space with pergolas.",
         longDescription: "Create a luxurious outdoor retreat with our automated Aluminium Pergolas. Featuring localized bioclimatic louvers, you can control sun and shade with the touch of a button. Integrated rain sensors and LED lighting make your patio usable 24/7, year-round.",
