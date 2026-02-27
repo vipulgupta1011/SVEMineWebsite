@@ -152,9 +152,11 @@ export default function ProductDetail() {
                             transition={{ delay: 0.7 }}
                         >
                             <h3 className="text-[10px] uppercase tracking-[0.2em] font-bold text-heading/60 mb-3">Design Intent</h3>
-                            <p className="text-heading/80 text-base leading-relaxed font-light mb-4">
-                                {product.longDescription || product.description}
-                            </p>
+                            <div className="text-heading/80 text-base leading-relaxed font-light mb-4 space-y-4">
+                                {(product.longDescription || product.description).split('\n\n').map((paragraph, index) => (
+                                    <p key={index}>{paragraph}</p>
+                                ))}
+                            </div>
                             <p className="text-heading/60 text-sm leading-relaxed font-light italic">
                                 Reflecting our 15-year legacy of precision, these {product.title} solutions are designed to translate your vision into a functional, aesthetically refined environment.
                             </p>

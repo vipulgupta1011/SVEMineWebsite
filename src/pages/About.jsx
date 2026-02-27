@@ -2,6 +2,9 @@
 import BrandPartners from '../components/BrandPartners';
 import YashImg from '../assets/Card/YashCard.png';
 import NidhiImg from '../assets/Card/NidhiCard.png';
+import aboutUs1 from '../assets/AboutUs/About-us-1.png';
+import aboutUs2 from '../assets/AboutUs/About-us-2.png';
+import aboutUs3 from '../assets/AboutUs/About-us-3.png';
 
 export default function About() {
     return (
@@ -36,7 +39,7 @@ export default function About() {
                     >
                         <div className="absolute top-0 right-0 w-[80%] h-[80%] border border-gold/20 rounded-tr-[100px] z-0 translate-x-8 -translate-y-8"></div>
                         <img
-                            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop"
+                            src={aboutUs1}
                             alt="Luxury Interior Showroom"
                             className="relative z-10 w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px] shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000"
                         />
@@ -62,7 +65,7 @@ export default function About() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.8 }}
-                                src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200&auto=format&fit=crop"
+                                src={aboutUs2}
                                 alt="Design Passion"
                                 className="w-full h-[600px] object-cover rounded-lg shadow-lg filter brightness-95 hover:brightness-100 transition-all duration-700"
                             />
@@ -155,10 +158,10 @@ export default function About() {
                     >
                         <h2 className="text-4xl font-serif text-heading mb-8">15 Years of <span className="text-cta italic">Living Art</span></h2>
                         <p className="text-body-text leading-loose mb-8 text-lg">
-                            Since 2008, SVE Interior has grown from a passion project into Rajasthan's most trusted curator of living spaces. What began as a vision by Yash & Nidhi Mamoria has evolved into a 15,000+ project legacy — a testament to uncompromising craftsmanship and a deep understanding of how people truly live.
+                            Since 2008, SVE Interior has grown from a passion project into Rajasthan's most trusted curator of living spaces. What began as a vision by Yash & Nidhi Mamoria has evolved into a 15,000+ project legacy, a testament to uncompromising craftsmanship and a deep understanding of how people truly live.
                         </p>
                         <p className="text-body-text leading-loose mb-12 text-lg">
-                            We don't just furnish rooms — we architect emotions. Every stretch ceiling, every woven curtain, every plank of flooring is selected with one purpose: to make your space feel unmistakably <em>yours</em>. As Rajasthan's foremost interior authority, we bring global design sensibility with local precision.
+                            We don't just furnish rooms,  we architect emotions. Every stretch ceiling, every woven curtain, every plank of flooring is selected with one purpose: to make your space feel unmistakably <em>yours</em>. As Rajasthan's foremost interior authority, we bring global design sensibility with local precision.
                         </p>
 
                         <div className="grid grid-cols-2 gap-6">
@@ -174,7 +177,7 @@ export default function About() {
                     <div className="relative h-[600px] group">
                         <div className="absolute inset-0 bg-gold/5 rounded-2xl transform rotate-3 transition-transform group-hover:rotate-0 duration-500"></div>
                         <img
-                            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop"
+                            src={aboutUs3}
                             className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-2xl filter grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700"
                             alt="Interior Detail"
                         />
