@@ -1,20 +1,17 @@
 import { motion, useMotionValue, useTransform, useAnimationFrame } from "framer-motion";
 
 const brands = [
+    "Excel",
     "D'Decor",
     "Warwick",
-    "TOSO (Japan)",
     "NBT",
     "Livin",
     "GreenPanel",
     "Somfy",
     "Asian Paints",
     "Du Pont",
-    "Excel",
     "Kazage",
-    "Newmat",
-    "Marvel",
-    "Casamance (FRANCE)"
+    "Newmat"
 ];
 
 const wrap = (min, max, v) => {

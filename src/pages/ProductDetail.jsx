@@ -33,7 +33,7 @@ const getSpecifications = (product) => ({
 const pageVariants = {
     initial: { opacity: 0, y: 60 },
     animate: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] } },
-    exit: { opacity: 0, y: -30, transition: { duration: 0.4 } }
+    exit: { opacity: 0, y: -30, transition: { duration: 0.4 } }     
 };
 
 export default function ProductDetail() {
@@ -76,10 +76,10 @@ export default function ProductDetail() {
             </div>
 
             {/* === Hero: 60/40 Asymmetric Split === */}
-            <section className="flex flex-col lg:flex-row min-h-screen">
+            <section className="flex flex-col lg:flex-row items-start relative">
 
                 {/* Left 60%-Full-bleed Image with Ken Burns */}
-                <div className="w-full lg:w-[60%] h-[50vh] lg:h-screen relative">
+                <div className="w-full lg:w-[60%] h-[50vh] lg:h-screen relative lg:sticky lg:top-0 z-10">
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={activeImageIndex}
@@ -114,8 +114,8 @@ export default function ProductDetail() {
                 </div>
 
                 {/* Right 40%-Dossier Panel */}
-                <div className="w-full lg:w-[40%] lg:h-screen lg:overflow-y-auto" style={{ backgroundColor: '#f4e9e2' }}>
-                    <div className="px-8 md:px-12 lg:px-14 py-12 lg:py-24 flex flex-col justify-center min-h-full">
+                <div className="w-full lg:w-[40%] min-h-screen" style={{ backgroundColor: '#f4e9e2' }}>
+                    <div className="px-8 md:px-12 lg:px-14 py-12 lg:py-24 flex flex-col">
 
                         {/* Category Tag */}
                         <motion.span
@@ -157,9 +157,9 @@ export default function ProductDetail() {
                                     <p key={index}>{paragraph}</p>
                                 ))}
                             </div>
-                            <p className="text-heading/60 text-sm leading-relaxed font-light italic">
+                            {/* <p className="text-heading/60 text-sm leading-relaxed font-light italic">
                                 Reflecting our 15-year legacy of precision, these {product.title} solutions are designed to translate your vision into a functional, aesthetically refined environment.
-                            </p>
+                            </p> */}
                         </motion.div>
 
                         {/* Best Use */}

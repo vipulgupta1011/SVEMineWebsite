@@ -23,7 +23,7 @@ export default function About() {
                             Complete Interior Solutions in <span className="text-cta italic">Jaipur</span>
                         </h1>
                         <p className="text-body-text text-lg leading-relaxed mb-6">
-                            SVE Interior was born out of a belief that thoughtful design can stand the test of time. We bridge the gap between form and function, elegance and comfort. With 15+ years of experience delivering premium product quality and a seamless customer experience, we are Jaipur's most trusted name in complete interior solutions.
+                            SVE Interior was born out of a belief that thoughtful design can stand the test of time. We bridge the gap between form and function, elegance and comfort. With 18+ years of experience delivering premium product quality and a seamless customer experience, we are Jaipur's most trusted name in complete interior solutions.
                         </p>
                         <p className="text-body-text leading-relaxed mb-12 font-light">
                             Founded by Yash &amp; Nidhi Mamoria, SVE Interior has grown from a passion project into one of Rajasthan's leading interior showrooms. Every decision we make is guided by balance-between innovation and timelessness-ensuring spaces that feel both modern and enduring.
@@ -111,14 +111,14 @@ export default function About() {
                     {[
                         {
                             name: "Yash Mamoria",
-                            role: "Co-Founder & Design Director",
-                            desc: "With an unwavering eye for detail and a deep conviction in quality over quantity, Yash leads SVE Interior's design philosophy. His belief: every space should reflect the personality of its owner, built with materials and designs that appreciate over time, not depreciate.",
+                            role: "Co-Founder & Technical Director",
+                            desc: "With a strong foundation in technical expertise and execution excellence, Yash leads all technical operations at SVE Interior. From product innovation and material research to on-site implementation and quality control, he ensures every project is engineered to precision. His belief: great design must be backed by flawless technical execution, ensuring durability, performance, and long-term value in every space we create.",
                             image: YashImg
                         },
                         {
                             name: "Nidhi Mamoria",
-                            role: "Co-Founder & Operations Head",
-                            desc: "Nidhi brings operational excellence and a seamless customer experience to every project. Her passion for long-term value over short-term trends has shaped SVE Interior's reputation for reliability, transparency, and client satisfaction across 15,000+ projects.",
+                            role: "Co-Founder & Design Director",
+                            desc: "With a refined aesthetic vision and deep understanding of spatial harmony, Nidhi leads the creative direction at SVE Interior. She ensures every space reflects individuality, elegance, and timeless appeal. Her design philosophy blends functionality with artistry, crafting interiors that are not only visually compelling but thoughtfully curated to enhance everyday living.",
                             image: NidhiImg
                         }
                     ].map((founder, i) => (
@@ -156,7 +156,7 @@ export default function About() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-4xl font-serif text-heading mb-8">15 Years of <span className="text-cta italic">Living Art</span></h2>
+                        <h2 className="text-4xl font-serif text-heading mb-8">18 Years of <span className="text-cta italic">Living Art</span></h2>
                         <p className="text-body-text leading-loose mb-8 text-lg">
                             Since 2008, SVE Interior has grown from a passion project into Rajasthan's most trusted curator of living spaces. What began as a vision by Yash & Nidhi Mamoria has evolved into a 15,000+ project legacy, a testament to uncompromising craftsmanship and a deep understanding of how people truly live.
                         </p>
@@ -165,7 +165,7 @@ export default function About() {
                         </p>
 
                         <div className="grid grid-cols-2 gap-6">
-                            {['15+ Years of Design Excellence', '15,000+ Completed Projects', "Rajasthan's Curator of Living Art", 'Trusted by 500+ Corporates'].map((item, i) => (
+                            {['18+ Years of Design Excellence', '15,000+ Completed Projects', "Rajasthan's Curator of Living Art", 'Trusted by 500+ Corporates'].map((item, i) => (
                                 <div key={i} className="flex items-center gap-3 p-4 border border-black/10 bg-[#F1DDDA]/40 rounded-lg hover:bg-rose/10 transition-colors cursor-default">
                                     <div className="w-2 h-2 bg-cta rounded-full flex-shrink-0"></div>
                                     <span className="text-sm font-medium text-heading">{item}</span>

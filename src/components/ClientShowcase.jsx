@@ -34,6 +34,7 @@ import apexLogo from '../assets/companyphotos/Apex.png';
 import sdmhLogo from '../assets/companyphotos/SDMH.png';
 import rasClubLogo from '../assets/companyphotos/Ras-Club.png';
 import jaiClubLogo from '../assets/companyphotos/Jai-Club.png';
+import rajasthanGovernanceLogo from '../assets/companyphotos/Rajasthan-Governance.png';
 
 const clients = [
     { name: "Radisson", logo: radissonLogo },
@@ -70,7 +71,8 @@ const clients = [
     { name: "SDMH", logo: sdmhLogo },
     { name: "Ras Club", logo: rasClubLogo },
     { name: "Jai Club", logo: jaiClubLogo },
-    { name: "The Legend", logo: theLegendLogo }
+    { name: "The Legend", logo: theLegendLogo },
+    { name: "Rajasthan Governance", logo: rajasthanGovernanceLogo }
 ];
 
 export default function ClientShowcase() {

@@ -39,7 +39,7 @@ export default function Stats() {
         <section className="bg-[#f4e9e2] border-y border-[#5a3e3e]/10 py-20">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <Counter value={15} label="Years of Design Excellence" />
+                    <Counter value={18} label="Years of Design Excellence" />
                     <Counter value={15000} label="Successfully Completed Projects" />
                     <Counter value={500} label="Corporate Clients Nationwide" />
                 </div>

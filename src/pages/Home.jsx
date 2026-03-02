@@ -71,7 +71,7 @@ export default function Home() {
                         transition={{ duration: 1, delay: 1.5 }}
                         className="text-base md:text-lg text-white/75 mb-12 font-light max-w-2xl mx-auto leading-relaxed"
                     >
-                        Founded by Yash &amp; Nidhi Mamoria on the principles of design integrity and honest craftsmanship. With 15+ years of experience and 15,000+ projects completed, we don't just decorate spaces-we create enduring experiences.
+                        Founded by Yash &amp; Nidhi Mamoria on the principles of design integrity and honest craftsmanship. With enormous years of experience and 15,000+ projects completed, we don't just decorate spaces-we create enduring experiences.
                     </motion.p>
 
                     <motion.div
@@ -227,7 +227,7 @@ export default function Home() {
                                 image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200"
                             },
                             {
-                                name: "Rahul Verma",
+                                name: "Anonymous",
                                 role: "Architect, C-Scheme",
                                 text: "As an architect, I rely on quality. SVE delivers premium products consistently. My go-to for wallpapers and blinds for all my high-end clients.",
                                 image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200"
