@@ -37,11 +37,11 @@ export default function AdminLeads() {
         try {
             const API_BASE = import.meta.env.VITE_API_URL || '';
             const res = await fetch(`${API_BASE}/api/leads`);
-            if (!res.ok) throw new Error('Failed to fetch leads');
             const data = await res.json();
+            if (!res.ok) throw new Error(data.error || 'Failed to fetch leads');
             setLeads(data);
         } catch (err) {
-            setError('Could not connect to backend. Make sure the server is running on port 3001.');
+            setError(err.message || 'Could not load leads.');
         } finally {
             setLoading(false);
         }
