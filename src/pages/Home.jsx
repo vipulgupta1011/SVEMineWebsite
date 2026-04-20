@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, Ruler, HardHat, Hammer } from 'lucide-react';
 import { useState } from 'react';
 import { products } from '../data/products';
-import heroBg from '../assets/home-page-hero.png';
+import heroBg from '../assets/home-page-hero.webp';
 
 import WhyChooseUs from '../components/WhyChooseUs';
 import Stats from '../components/Stats';
@@ -125,7 +125,7 @@ export default function Home() {
                                 to={`/collections/${products[1].id}`}
                                 className="relative group overflow-hidden cursor-pointer bg-[#f4e9e2] rounded-xl border border-soft-border h-[300px] md:h-[376px] block"
                             >
-                                <img src={products[1].image} alt={products[1].title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                                <img src={products[1].image} alt={products[1].title} loading="lazy" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none z-[5]"></div>
                                 <div className="absolute bottom-4 left-4 right-4 flex justify-center z-10">
                                     <span className="product-label">{products[1].title}</span>
@@ -136,7 +136,7 @@ export default function Home() {
                                 to={`/collections/${products[5].id}`}
                                 className="relative group overflow-hidden cursor-pointer bg-[#f4e9e2] rounded-xl border border-soft-border h-[200px] md:h-[200px] block"
                             >
-                                <img src={products[5].image} alt={products[5].title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                                <img src={products[5].image} alt={products[5].title} loading="lazy" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none z-[5]"></div>
                                 <div className="absolute bottom-4 left-4 right-4 flex justify-center z-10">
                                     <span className="product-label">{products[5].title}</span>
@@ -151,7 +151,7 @@ export default function Home() {
                                 to={`/collections/${products[2].id}`}
                                 className="relative group overflow-hidden cursor-pointer bg-[#f4e9e2] rounded-xl border border-soft-border h-[200px] md:h-[200px] block"
                             >
-                                <img src={products[2].image} alt={products[2].title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                                <img src={products[2].image} alt={products[2].title} loading="lazy" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none z-[5]"></div>
                                 <div className="absolute bottom-4 left-4 right-4 flex justify-center z-10">
                                     <span className="product-label">{products[2].title}</span>
@@ -162,7 +162,7 @@ export default function Home() {
                                 to={`/collections/${products[6].id}`}
                                 className="relative group overflow-hidden cursor-pointer bg-[#f4e9e2] rounded-xl border border-soft-border h-[300px] md:h-[376px] block"
                             >
-                                <img src={products[6].image} alt={products[6].title} className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                                <img src={products[6].image} alt={products[6].title} loading="lazy" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none z-[5]"></div>
                                 <div className="absolute bottom-4 left-4 right-4 flex justify-center z-10">
                                     <span className="product-label">{products[6].title}</span>
@@ -204,8 +204,8 @@ export default function Home() {
             {/* Transformation Showcase */}
             {/* Transformation Showcase */}
             <BeforeAfter
-                beforeImage="/before-after-before.jpeg"
-                afterImage="/before-after-after.jpeg"
+                beforeImage="/before-after-before.webp"
+                afterImage="/before-after-after.webp"
             />
 
             {/* Testimonials */}
@@ -235,7 +235,7 @@ export default function Home() {
                         ].map((item, i) => (
                             <div key={i} className="flex flex-col items-center group">
                                 <div className="w-16 h-16 rounded-full overflow-hidden mb-8 border-2 border-cta/20 group-hover:border-cta transition-colors">
-                                    <img src={item.image} alt={item.name} className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500" />
+                                    <img src={item.image} alt={item.name} loading="lazy" className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500" />
                                 </div>
                                 <p className="text-body-text font-light mb-8 leading-loose text-sm max-w-xs mx-auto">"{item.text}"</p>
 

@@ -1,10 +1,10 @@
 ﻿import { motion } from 'framer-motion';
 import BrandPartners from '../components/BrandPartners';
-import YashImg from '../assets/Card/YashCard.png';
-import NidhiImg from '../assets/Card/NidhiCard.png';
-import aboutUs1 from '../assets/AboutUs/About-us-1.png';
-import aboutUs2 from '../assets/AboutUs/About-us-2.png';
-import aboutUs3 from '../assets/AboutUs/About-us-3.png';
+import YashImg from '../assets/Card/YashCard.webp';
+import NidhiImg from '../assets/Card/NidhiCard.webp';
+import aboutUs1 from '../assets/AboutUs/About-us-1.webp';
+import aboutUs2 from '../assets/AboutUs/About-us-2.webp';
+import aboutUs3 from '../assets/AboutUs/About-us-3.webp';
 
 export default function About() {
     return (
@@ -41,6 +41,7 @@ export default function About() {
                         <img
                             src={aboutUs1}
                             alt="Luxury Interior Showroom"
+                            loading="lazy"
                             className="relative z-10 w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px] shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000"
                         />
                         <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-rose/90 backdrop-blur-xl z-20 rounded-full flex items-center justify-center p-6 border border-gold/30 hidden md:flex shadow-2xl">
@@ -134,6 +135,7 @@ export default function About() {
                                 <img
                                     src={founder.image}
                                     alt={founder.name}
+                                    loading="lazy"
                                     className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                                 />
                             </div>
@@ -178,6 +180,7 @@ export default function About() {
                         <div className="absolute inset-0 bg-gold/5 rounded-2xl transform rotate-3 transition-transform group-hover:rotate-0 duration-500"></div>
                         <img
                             src={aboutUs3}
+                            loading="lazy"
                             className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-2xl filter grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700"
                             alt="Interior Detail"
                         />

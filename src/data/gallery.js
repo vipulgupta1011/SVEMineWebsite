@@ -1,20 +1,20 @@
 ﻿// SVE Interior Gallery-Residential & Commercial Projects
 // Uses high-quality Unsplash images relevant to SVE's actual product categories
-import AcousticPanelRoom from "../assets/Gallery/AcousticPanelRoom.png";
-import BankBranchInterior from "../assets/Gallery/BankBranchInterior.png";
-import CorporateOfficeInterior from "../assets/Gallery/CorporateOfficeInterior.png";
-import DesignerCurtainsDrapes from "../assets/Gallery/DesignerCurtainsDrapes.png";
-import ElegantWallpaperAccentWall from "../assets/Gallery/ElegantWallpaperAccentWall.png";
-import ExteriorDeckingCladding from "../assets/Gallery/ExteriorDeckingCladding.png";
-import HotelLobbyReception from "../assets/Gallery/HotelLobbyReception.png";
-import LuxurySofaUpholstery from "../assets/Gallery/LuxurySofaUpholstery.png";
-import PergolaLounge from "../assets/Gallery/PergolaLounge.png";
-import PremiumWoodenFlooring from "../assets/Gallery/PremiumWoodenFlooring.png";
-import RestaurantHospitalityDesign from "../assets/Gallery/RestaurantHospitalityDesign.png";
-import StretchCeilingLivingRoom from "../assets/Gallery/StretchCeilingLivingRoom.png";
-import VerticalGardenFeatureWall from "../assets/Gallery/VerticalGardenFeatureWall.png";
-import WallToWallCarpetInstallation from "../assets/Gallery/Wall-to-WallCarpetInstallation.png";
-import ZebraBlindsforBedrooms from "../assets/Gallery/ZebraBlindsforBedrooms.png";
+import AcousticPanelRoom from "../assets/Gallery/AcousticPanelRoom.webp";
+import BankBranchInterior from "../assets/Gallery/BankBranchInterior.webp";
+import CorporateOfficeInterior from "../assets/Gallery/CorporateOfficeInterior.webp";
+import DesignerCurtainsDrapes from "../assets/Gallery/DesignerCurtainsDrapes.webp";
+import ElegantWallpaperAccentWall from "../assets/Gallery/ElegantWallpaperAccentWall.webp";
+import ExteriorDeckingCladding from "../assets/Gallery/ExteriorDeckingCladding.webp";
+import HotelLobbyReception from "../assets/Gallery/HotelLobbyReception.webp";
+import LuxurySofaUpholstery from "../assets/Gallery/LuxurySofaUpholstery.webp";
+import PergolaLounge from "../assets/Gallery/PergolaLounge.webp";
+import PremiumWoodenFlooring from "../assets/Gallery/PremiumWoodenFlooring.webp";
+import RestaurantHospitalityDesign from "../assets/Gallery/RestaurantHospitalityDesign.webp";
+import StretchCeilingLivingRoom from "../assets/Gallery/StretchCeilingLivingRoom.webp";
+import VerticalGardenFeatureWall from "../assets/Gallery/VerticalGardenFeatureWall.webp";
+import WallToWallCarpetInstallation from "../assets/Gallery/Wall-to-WallCarpetInstallation.webp";
+import ZebraBlindsforBedrooms from "../assets/Gallery/ZebraBlindsforBedrooms.webp";
 
 export const galleryImages = [
     {

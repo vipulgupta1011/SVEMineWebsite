@@ -1,40 +1,40 @@
 // Import local assets
-import adaniLogo from '../assets/companyphotos/Adani.png';
-import agrawalLogo from '../assets/companyphotos/Agrawal-Pg-College.png';
-import auBankLogo from '../assets/companyphotos/Au-Small-Finance.png';
-import audiLogo from '../assets/companyphotos/Audi.png';
-import bhamashahLogo from '../assets/companyphotos/Bhamashah-Technohub.png';
-import gravitaLogo from '../assets/companyphotos/Gravita.png';
-import hgielLogo from '../assets/companyphotos/Hgiel.png';
-import hondaLogo from '../assets/companyphotos/Honda.png';
-import jayshreeLogo from '../assets/companyphotos/Jayshree-Periwal-International-School.png';
-import kiaLogo from '../assets/companyphotos/Kia.png';
-import radianceManglamLogo from '../assets/companyphotos/Manglam-Radiance.png';
-import nexaLogo from '../assets/companyphotos/Nexa.png';
-import nirvanaLogo from '../assets/companyphotos/Nirvana.png';
-import rkMarbleLogo from '../assets/companyphotos/RK-Marble.png';
-import radissonLogo from '../assets/companyphotos/Radisson.png';
-import sbiLogo from '../assets/companyphotos/Sbi-logo.png';
-import shahpuraLogo from '../assets/companyphotos/Shahpura-Hotels.png';
-import xaviersLogo from '../assets/companyphotos/St.xaviers-College.png';
-import tholiasLogo from '../assets/companyphotos/Tholias-Kuber.png';
-import cheerSagarLogo from '../assets/companyphotos/cheer-Sagar.png';
-import theLegendLogo from '../assets/companyphotos/the-Legend.png';
-import indianOilLogo from '../assets/companyphotos/IndianOil.png';
-import ehccLogo from '../assets/companyphotos/EHCC.png';
-import bharatPetroleumLogo from '../assets/companyphotos/BharatPetroleum.png';
-import policeHeadquarterLogo from '../assets/companyphotos/Police-Headquarter.png';
-import kgkRealtyLogo from '../assets/companyphotos/KGK-Realty.png';
-import manglamLogo from '../assets/companyphotos/Manglam.png';
-import westinLogo from '../assets/companyphotos/Westin.png';
-import jecrcLogo from '../assets/companyphotos/JECRC.png';
-import akshayaPatraLogo from '../assets/companyphotos/Akshaya-Patra.png';
-import dynamicCablesLogo from '../assets/companyphotos/Dynamic-Cables.png';
-import apexLogo from '../assets/companyphotos/Apex.png';
-import sdmhLogo from '../assets/companyphotos/SDMH.png';
-import rasClubLogo from '../assets/companyphotos/Ras-Club.png';
-import jaiClubLogo from '../assets/companyphotos/Jai-Club.png';
-import rajasthanGovernanceLogo from '../assets/companyphotos/Rajasthan-Governance.png';
+import adaniLogo from '../assets/companyphotos/Adani.webp';
+import agrawalLogo from '../assets/companyphotos/Agrawal-Pg-College.webp';
+import auBankLogo from '../assets/companyphotos/Au-Small-Finance.webp';
+import audiLogo from '../assets/companyphotos/Audi.webp';
+import bhamashahLogo from '../assets/companyphotos/Bhamashah-Technohub.webp';
+import gravitaLogo from '../assets/companyphotos/Gravita.webp';
+import hgielLogo from '../assets/companyphotos/Hgiel.webp';
+import hondaLogo from '../assets/companyphotos/Honda.webp';
+import jayshreeLogo from '../assets/companyphotos/Jayshree-Periwal-International-School.webp';
+import kiaLogo from '../assets/companyphotos/Kia.webp';
+import radianceManglamLogo from '../assets/companyphotos/Manglam-Radiance.webp';
+import nexaLogo from '../assets/companyphotos/Nexa.webp';
+import nirvanaLogo from '../assets/companyphotos/Nirvana.webp';
+import rkMarbleLogo from '../assets/companyphotos/RK-Marble.webp';
+import radissonLogo from '../assets/companyphotos/Radisson.webp';
+import sbiLogo from '../assets/companyphotos/Sbi-logo.webp';
+import shahpuraLogo from '../assets/companyphotos/Shahpura-Hotels.webp';
+import xaviersLogo from '../assets/companyphotos/St.xaviers-College.webp';
+import tholiasLogo from '../assets/companyphotos/Tholias-Kuber.webp';
+import cheerSagarLogo from '../assets/companyphotos/cheer-Sagar.webp';
+import theLegendLogo from '../assets/companyphotos/the-Legend.webp';
+import indianOilLogo from '../assets/companyphotos/IndianOil.webp';
+import ehccLogo from '../assets/companyphotos/EHCC.webp';
+import bharatPetroleumLogo from '../assets/companyphotos/BharatPetroleum.webp';
+import policeHeadquarterLogo from '../assets/companyphotos/Police-Headquarter.webp';
+import kgkRealtyLogo from '../assets/companyphotos/KGK-Realty.webp';
+import manglamLogo from '../assets/companyphotos/Manglam.webp';
+import westinLogo from '../assets/companyphotos/Westin.webp';
+import jecrcLogo from '../assets/companyphotos/JECRC.webp';
+import akshayaPatraLogo from '../assets/companyphotos/Akshaya-Patra.webp';
+import dynamicCablesLogo from '../assets/companyphotos/Dynamic-Cables.webp';
+import apexLogo from '../assets/companyphotos/Apex.webp';
+import sdmhLogo from '../assets/companyphotos/SDMH.webp';
+import rasClubLogo from '../assets/companyphotos/Ras-Club.webp';
+import jaiClubLogo from '../assets/companyphotos/Jai-Club.webp';
+import rajasthanGovernanceLogo from '../assets/companyphotos/Rajasthan-Governance.webp';
 
 const clients = [
     { name: "Radisson", logo: radissonLogo },
@@ -95,6 +95,7 @@ export default function ClientShowcase() {
                             <img
                                 src={client.logo}
                                 alt={client.name}
+                                loading="lazy"
                                 className="max-h-12 w-auto max-w-full"
                             />
                         </div>

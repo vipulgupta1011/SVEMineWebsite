@@ -50,6 +50,7 @@ export default function BeforeAfter({ beforeImage, afterImage }) {
                     <img
                         src={afterImage}
                         alt="After Renovation"
+                        loading="lazy"
                         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                     />
                     <div className="absolute top-6 right-6 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full text-white text-[10px] font-bold tracking-widest border border-white/10 z-10">AFTER</div>
@@ -64,6 +65,7 @@ export default function BeforeAfter({ beforeImage, afterImage }) {
                         <img
                             src={beforeImage}
                             alt="Before Renovation"
+                            loading="lazy"
                             className="absolute inset-0 w-full h-full object-cover filter brightness-90 sepia-[0.3]"
                         />
                         <div className="absolute top-6 left-6 bg-gold/90 backdrop-blur-md px-4 py-2 rounded-full text-rich-charcoal text-[10px] font-bold tracking-widest border border-white/10 z-10">BEFORE</div>
