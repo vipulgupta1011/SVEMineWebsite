@@ -32,7 +32,6 @@ export default function Contact() {
             if (response.ok) {
                 setStatus({ loading: false, message: 'Message sent successfully!', type: 'success' });
                 setFormData({ firstName: '', lastName: '', email: '', message: '' });
-                console.log('Data Saved:', data);
             } else {
                 throw new Error(data.error || 'Failed to send message');
             }
