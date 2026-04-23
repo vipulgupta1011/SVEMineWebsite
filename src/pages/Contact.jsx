@@ -27,7 +27,8 @@ export default function Contact() {
                 body: JSON.stringify(formData)
             });
 
-            const data = await response.json();
+            const text = await response.text();
+            const data = text ? JSON.parse(text) : {};
 
             if (response.ok) {
                 setStatus({ loading: false, message: 'Message sent successfully!', type: 'success' });
